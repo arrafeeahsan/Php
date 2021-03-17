@@ -1,17 +1,16 @@
 <?php
-  $name="somudro12";
-   $password="123456";
+ 
 if (isset($_POST['submit'])) {
 
-	$getname=$_POST['name'];
-	$getpassword=$_POST['password'];
-	if ($getname==$name and $getpassword==$password) {
+	$username=$_POST['username'];
+	$password=$_POST['password'];
+	if ($username==$username and $password==$password) {
 		if (isset($_POST['rm'])) {
-			setcookie('name',$getname,time()+60*60*7 );
+			setcookie('username',$username,time()+60*60*7 );
 
 		}
 			session_start();
-			$_SESSION['name']=$getname;
+			$_SESSION['username']=$username;
 			header("location: dashBoard.php");
 
 		

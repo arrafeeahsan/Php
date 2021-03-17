@@ -80,7 +80,7 @@ section{
 
 <ul>
   <li><a href="Dashboard.php"> Dashboard</a></li>
-  <li><a href="#">View Profile</a></li>
+  <li><a href="Myprofile.php">View Profile</a></li>
   <li><a href="#">Edit Profile</a></li>
   <li><a href="upload.php">Change Profile Picture</a></li>
   <li><a href="Change Password.php">Change Password</a></li>

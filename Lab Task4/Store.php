@@ -11,7 +11,7 @@
       {  
            $error = "<label class='text-danger'>Enter E-mail</label>";  
       }   
-      else if(empty($_POST["name"]))  
+      else if(empty($_POST["username"]))  
       {  
            $error = "<label class='text-danger'>Enter User Name</label>";  
       }  
@@ -39,7 +39,7 @@
                 $extra = array(  
                       'fullname' =>     $_POST['fullname'],
                       'email' =>     $_POST['email'],
-                      'name'   =>     $_POST['name'],  
+                      'username'   =>     $_POST['username'],  
                       'password' =>     $_POST['password'],
                       'newPassword' =>     $_POST['newPassword'],
                       'gender'    =>     $_POST["gender"],  
@@ -120,7 +120,7 @@
         <td > User Name   </td>
        
 
-        <td><input type="text" name="name"/></td>
+        <td><input type="text" name="username"/></td>
           
       </tr>
 
